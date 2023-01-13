@@ -110,12 +110,12 @@ author:
   location         : "South Korea"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:hdyoon93@naver.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://hdyoon93.github.io"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:hdyoon93@naver.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://hdyoon93.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hdyoon93"
@@ -287,7 +287,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+      toc: false
       read_time: true
       comments: true
       share: true
       related: true
+      search: true
+      classes: wide
+      # sidebar:
+      #   nav: "docs"
